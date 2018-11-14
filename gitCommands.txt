@@ -1,0 +1,36 @@
+echo "# gitHubPractise" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/anupama95singh/gitHubPractise.git
+git push -u origin master
+
+git remote add origin https://github.com/anupama95singh/gitHubPractise.git
+git push -u origin master
+
+We recommend every repository include a README, LICENSE, and .gitignore.
+
+#############################################################################
+git --version
+
+git config --global user.name "anupama95singh"
+git config --global user.email "anupama.singh@triconinfotech.com"
+
+git config --list
+
+git help config
+git config --help
+
+git init
+//initialise an empty git repo
+
+rm -rf .git
+//remove a .git repo
+
+git status
+
+touch .gitignore
+
+
+
+
