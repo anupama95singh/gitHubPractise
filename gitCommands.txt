@@ -31,6 +31,22 @@ git status
 
 touch .gitignore
 
+git commit -m "initial commit blah blah"
+
+git add -A
+//add every thing to staging area
+
+git log
+
+git clone <url> --b <branch-name>
+
+git branch -a
+
+git remote -v
+
+git diff
+
+
 
 
 
