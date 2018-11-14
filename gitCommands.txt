@@ -46,7 +46,38 @@ git remote -v
 
 git diff
 
+git pull origin <branch_name>
 
+git branch anupama
+//ceates a new branch anupama
 
+git branch
+//all the branches
 
+git checkout anupama
+//move from current to anupama
+
+git push -u origin anupama
+git branch -a
+// -u is used for associating local anupama branch to remote anupama branch
+git pull
+git push
+
+############################################################################
+merge a branch anupama to master
+
+git checkout master
+git pull origin master
+git branch --merged
+git merge anupama 
+git push origin master
+
+#############################################################################
+delete a branch anupama from local
+git branch -d anupama
+
+delete a branch anupama from remote
+git push origin --delete anupama
+
+for more help visit: https://www.youtube.com/watch?v=HVsySz-h9r4
 
